@@ -1,0 +1,50 @@
+.container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.speedometer {
+  height: 300px;
+  width: 70%x;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.speed {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.description {
+  ont-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.button-add {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button-subtract {
+  background-color: #07080c;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #ffffff;
+  cursor: pointer;
+}
